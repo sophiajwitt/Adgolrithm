@@ -1,0 +1,21 @@
+html, body {
+    margin:0;
+  }
+
+.container {
+  position: relative;
+}
+
+#background {
+  position: relative;
+}
+
+h1 {
+  position:fixed;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Gilda Display', serif;
+  font-size: 4em;
+  color:rgba(63, 15, 88, 0.5);
+}
