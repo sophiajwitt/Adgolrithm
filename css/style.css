@@ -10,9 +10,24 @@ html, body {
   position: relative;
 }
 
+#github {
+    position: fixed;
+    top: 3%;
+    left: 92%;
+    opacity: 0.5;
+}
+
+#linkedin {
+    position: fixed;
+    top: 3%;
+    left: 87%;
+    opacity: 0.5;
+
+}
+
 h1 {
   position:absolute;
-  top: 8%;
+  top: 2%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: 'Gilda Display', serif;
@@ -22,30 +37,124 @@ h1 {
 
 h2 {
   position: absolute;
-  top: 19%;
+  top: 7%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: 'Lora', serif;
-  font-size: 1.7em;
+  font-size: 1.em;
   color:rgba(62, 15, 88, 0.361);
+}
+
+h3 {
+  font-family: 'Gilda Display', serif;
+  font-size: 1.1em;
+  color:rgba(63, 15, 88, 0.5);
 }
 
 .info {
     position:absolute;
-    top: 57%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: #ffffff3b;
-    padding: 20px 40px;
+    padding: 30px 50px;
     font-family: 'Gilda Display', serif;
     color:rgba(63, 15, 88, 0.5);
     font-size: 1.5em;
     border-radius: 25px;
-    box-shadow: 0 0 20px rgba(0,139,253,0.25);
+    box-shadow: 0 0 20px rgba(144, 199, 243, 0.25);
 }
 
 .prototype {
     display:flex;
     justify-content: space-around;
+    column-gap: 5px;
+}
 
+.box {
+    flex-grow: 3;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+}
+
+.problem {
+    position:absolute;
+    top: 50%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+    background: #ffffff3b;
+    padding: 20px 35px;
+    font-family: 'Gilda Display', serif;
+    color:rgba(63, 15, 88, 0.5);
+    font-size: 1.5em;
+    border-radius: 25px;
+    box-shadow: 0 0 20px rgba(144, 199, 243, 0.25);
+}
+.methods {
+    position:absolute;
+    top: 50%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+    background: #ffffff3b;
+    padding: 20px 35px;
+    font-family: 'Gilda Display', serif;
+    color:rgba(63, 15, 88, 0.5);
+    font-size: 1.5em;
+    border-radius: 25px;
+    box-shadow: 0 0 20px rgba(144, 199, 243, 0.25);
+}
+
+.evidence {
+    position:absolute;
+    top: 70%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+    background: #ffffff3b;
+    padding: 20px 35px;
+    font-family: 'Gilda Display', serif;
+    color:rgba(63, 15, 88, 0.5);
+    font-size: 1.5em;
+    border-radius: 25px;
+    box-shadow: 0 0 20px rgba(144, 199, 243, 0.25);
+}
+.solution {
+    position:absolute;
+    top: 70%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+    background: #ffffff3b;
+    padding: 20px 35px;
+    font-family: 'Gilda Display', serif;
+    color:rgba(63, 15, 88, 0.5);
+    font-size: 1.5em;
+    border-radius: 25px;
+    box-shadow: 0 0 20px rgba(144, 199, 243, 0.25);
+}
+
+.roles {
+    position:absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ffffff3b;
+    padding: 20px 40px;
+    font-family: 'Gilda Display', serif;
+    display: flex;
+    flex-direction:column;
+    color:rgba(63, 15, 88, 0.5);
+    font-size: 1.5em;
+    border-radius: 25px;
+    box-shadow: 0 0 20px rgba(144, 199, 243, 0.25);
+}
+
+p {
+    font-family: 'Gilda Display', serif;
+    font-size: .7em;
+    color:rgba(63, 15, 88, 0.5);
 }
