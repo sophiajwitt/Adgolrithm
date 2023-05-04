@@ -20,7 +20,7 @@ html, body {
 #linkedin {
     position: fixed;
     top: 3%;
-    left: 87%;
+    left: 88%;
     opacity: 0.5;
 
 }
@@ -72,7 +72,7 @@ h3 {
 }
 
 .box {
-    flex-grow: 3;
+    flex-grow: 5;
 }
 
 .container2 {
@@ -86,7 +86,7 @@ h3 {
 .problem {
     position:absolute;
     top: 50%;
-    left: 33%;
+    left: 31%;
     transform: translate(-50%, -50%);
     background: #ffffff3b;
     padding: 20px 35px;
@@ -113,7 +113,7 @@ h3 {
 .evidence {
     position:absolute;
     top: 70%;
-    left: 33%;
+    left: 30%;
     transform: translate(-50%, -50%);
     background: #ffffff3b;
     padding: 20px 35px;
@@ -126,7 +126,7 @@ h3 {
 .solution {
     position:absolute;
     top: 70%;
-    left: 67%;
+    left: 70%;
     transform: translate(-50%, -50%);
     background: #ffffff3b;
     padding: 20px 35px;
@@ -140,10 +140,10 @@ h3 {
 .roles {
     position:absolute;
     top: 90%;
-    left: 50%;
+    left: 51%;
     transform: translate(-50%, -50%);
     background: #ffffff3b;
-    padding: 20px 40px;
+    padding: 20px 35px;
     font-family: 'Gilda Display', serif;
     display: flex;
     flex-direction:column;
@@ -156,5 +156,22 @@ h3 {
 p {
     font-family: 'Gilda Display', serif;
     font-size: .7em;
-    color:rgba(63, 15, 88, 0.5);
+    color:rgb(62, 15, 88);
+}
+
+span {
+    font-family: 'Lora', serif;
+    font-size: 1em;
+}
+
+.quotes {
+    font-size: .6em;
+}
+
+.method-flex {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 7px;
+
 }
